@@ -34,7 +34,7 @@ async function bootstrap(): Promise<void> {
   );
 
   const config = new DocumentBuilder()
-    .setTitle('Minna No Accent API')
+    .setTitle('Ultimate Template API')
     .setVersion('0.1.0')
     .addServer(API_BASE_URL)
     .build();

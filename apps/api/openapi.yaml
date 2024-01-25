@@ -22,7 +22,7 @@ paths:
         '200':
           description: ''
 info:
-  title: Minna No Accent API
+  title: Ultimate Template API
   description: ''
   version: 0.1.0
   contact: {}
