@@ -28,9 +28,9 @@ cp apps/api/.env.example apps/api/.env
 
 Fill out the .env files with the correct values.
 
-3. Run the server once to generate the OpenAPI schema
+3. Start the server first to generate the OpenAPI schema
 ```bash
-cd apps/api && yarn start
+cd apps/api && yarn dev
 cd ../..
 ```
 
@@ -40,10 +40,7 @@ cd apps/web && yarn generate:api
 cd ../..
 ```
 
-5. Run the project
+5. Start the client
 ```bash
-cd apps/api && yarn start
-cd ../..
-cd apps/web && yarn start
-cd ../..
+cd apps/web && yarn dev
 ```
