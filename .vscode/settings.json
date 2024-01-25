@@ -1,0 +1,18 @@
+{
+  "cSpell.words": [
+    "dotenv",
+    "emailpassword",
+    "fastapi",
+    "Fastify",
+    "jwks",
+    "nestjs",
+    "nextjs",
+    "openapi",
+    "openapitools",
+    "supertokens",
+    "uvicorn",
+    "venv",
+    "whitecloak"
+  ],
+  "eslint.workingDirectories": [{ "mode": "auto" }]
+}

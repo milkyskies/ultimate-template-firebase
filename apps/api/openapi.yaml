@@ -1,0 +1,33 @@
+openapi: 3.0.0
+paths:
+  /health:
+    get:
+      operationId: HealthController_getHealth
+      parameters: []
+      responses:
+        '200':
+          description: ''
+  /health/authn:
+    get:
+      operationId: HealthController_getAuthnProtectedHealth
+      parameters: []
+      responses:
+        '200':
+          description: ''
+  /health/authz:
+    get:
+      operationId: HealthController_getAuthzProtectedHealth
+      parameters: []
+      responses:
+        '200':
+          description: ''
+info:
+  title: Minna No Accent API
+  description: ''
+  version: 0.1.0
+  contact: {}
+tags: []
+servers:
+  - url: http://localhost:3001
+components:
+  schemas: {}
